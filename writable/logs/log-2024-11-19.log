@@ -1,0 +1,27 @@
+CRITICAL - 2024-11-19 11:35:41 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Main.php(35): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 11:55:43 --> Invalid file: "teste.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teste.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('teste', [], true)
+ 3 APPPATH\Controllers\Main.php(27): view('teste')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 11:57:00 --> Invalid file: "teste.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teste.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('teste', [], true)
+ 3 APPPATH\Controllers\Main.php(27): view('teste')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
